@@ -43,6 +43,10 @@ body h1 {
     list-style: none;
 }
 
+.menu-item-list li:hover {
+    cursor: pointer;
+}
+
 .menu-item-details {
     width: 50%;
 }
