@@ -22,8 +22,27 @@ body h1 {
     color: var(--primary-font-color);
 }
 
-.menu-container {
+.container {
+    width: 90vw;
+    max-width: 500px;
+    background: #d1957d;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.menu-item-list {
+    color: white;
+    padding: 0px;
+    width: 50%;
+}
+
+.menu-item-list li {
+    list-style: none;
+}
+
+.menu-item-details {
+    width: 50%;
 }
